@@ -1,0 +1,47 @@
+#top {
+    height: 100%;
+}
+
+.circles {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+.circles button {
+    border-radius: 50%;
+    border: none;
+    margin: 0 5px;
+    padding: 9px;
+}
+
+#red {
+    background: #FF5D4B;
+    color: #FF5D4B;
+}
+
+#yellow {
+    background: #FFC400;
+    color: #FFC400;
+}
+
+#green {
+    background: #34E419;
+    color: #34E419;
+}
+
+h1, span {
+    text-align: end;
+    margin: 0;
+    margin-right: 20px;
+    overflow: hidden;
+}
+
+span {
+    font-size: .5rem;
+    display: block;
+    opacity: 1;
+}
+
+.oculto {
+    opacity: 0;
+}

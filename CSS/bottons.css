@@ -1,0 +1,38 @@
+#botons  {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    height: 100%;
+}
+
+#botons button {
+    width: 100%;
+    height: 100%;
+    font-size: .8rem;
+    color: white;
+    border: 1px solid grey;
+}
+
+.grey{
+    background: #573C80;
+}
+.grey:hover{
+    background: #442c68ce;
+}
+
+.orange{
+    background: #FFA400;
+}
+.orange:hover{
+    background: #ffa600ab;
+}
+.number, #dot {
+    background: #695F8A;
+}
+.number:hover, #dot:hover {
+    background: #695f8ab6;
+}
+#cero {
+    grid-column: 1 / span 2;
+    max-width: 150px;
+}
